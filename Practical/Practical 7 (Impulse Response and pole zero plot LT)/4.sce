@@ -1,0 +1,11 @@
+clc;clear;close;
+s=%s;
+N=0.1*s^2+1.35*s;
+D=s^2+3*s+2;
+G=syslin('c',N,D);
+t=linspace(0,8,200);
+u=ones(1,200);
+y=csim(u,t,G);
+plot(t,y);
+xtitle('Response to initial conditions','t Sec','Response');
+xgrid(color('grey'));

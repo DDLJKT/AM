@@ -1,0 +1,12 @@
+
+A=1:
+Dw= 0.006;
+WI=4; /Timein seconds W=-WI/2:Dw:WI/2;
+for i=
+end
+XW =XW':
+NW) 
+1:length(w) XW(i)= A;
+plot(w,XW); 
+xlabel('w in radians'): 
+title('Continuous Time Fourier Transform x(t)')
